@@ -1,27 +1,28 @@
-// #include<iostream>
-// using namespace std;
-// int main(){
+#include<iostream>
+using namespace std;
+int main(){
 
-// int i,n,prev,current,last;
-// cin>>n;
-// prev=0;
-// last=1;
-// for ( i = 0; i < n; i++)
-// {
+int i,n,prev,current,last;
+cout<<"enter here ";
+cin>>n;
+prev=0;
+last=1;
+for ( i = 0; i < n; i++)
+{
  
-//     current=prev+last;
-//     prev=last;
-//     last=current;
-// cout<<prev <<"  ";
+    current=prev+last;
+    prev=last;
+    last=current;
+cout<<prev <<"  ";
    
 
-// }
+}
 
-// return 0;
+return 0;
 
 
 
-// }
+}
 
 
 
